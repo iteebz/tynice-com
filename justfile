@@ -10,6 +10,10 @@ dev:
 deploy:
     @CLOUDFLARE_ACCOUNT_ID=5b1295e874631bb6d428fc7a75806e6e wrangler pages deploy public/ --project-name tynice --commit-dirty=true
 
-ci:
-    @pnpm install
+format:
+    @pnpm exec biome check --write .
+
+lint:
     @pnpm exec biome check .
+
+ci: lint
