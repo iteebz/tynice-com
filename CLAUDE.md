@@ -19,7 +19,7 @@ Shows on every load. Answer: `merribee`. No cookie — intentional.
 just deploy   # wrangler pages deploy public/
 ```
 
-Auto-deploys on push to `main` via GitHub Actions — needs `CLOUDFLARE_API_TOKEN` secret.
+Auto-deploys on push to `space` via GitHub Actions — needs `CLOUDFLARE_API_TOKEN` secret.
 
 ## Videos on R2
 
