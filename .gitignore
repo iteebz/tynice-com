@@ -6,3 +6,4 @@ data/
 
 # videos live on R2, not in git
 public/media/videos/
+.wrangler/
